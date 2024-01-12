@@ -1,5 +1,5 @@
 // Generated from PizzaOrdering.g4 by ANTLR 4.9.3
-package me.tomassetti.examples.MarkupParser;
+package dethieme.MarkupParser;
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;

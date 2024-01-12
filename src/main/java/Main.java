@@ -1,5 +1,5 @@
-import me.tomassetti.examples.MarkupParser.PizzaOrderingLexer;
-import me.tomassetti.examples.MarkupParser.PizzaOrderingParser;
+import dethieme.MarkupParser.PizzaOrderingLexer;
+import dethieme.MarkupParser.PizzaOrderingParser;
 
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
