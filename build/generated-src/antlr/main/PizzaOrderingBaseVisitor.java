@@ -17,7 +17,7 @@ public class PizzaOrderingBaseVisitor<T> extends AbstractParseTreeVisitor<T> imp
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitOrder_commands(PizzaOrderingParser.Order_commandsContext ctx) { return visitChildren(ctx); }
+	@Override public T visitOrders(PizzaOrderingParser.OrdersContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *

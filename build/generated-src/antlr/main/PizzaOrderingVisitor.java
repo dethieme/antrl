@@ -11,11 +11,11 @@ import org.antlr.v4.runtime.tree.ParseTreeVisitor;
  */
 public interface PizzaOrderingVisitor<T> extends ParseTreeVisitor<T> {
 	/**
-	 * Visit a parse tree produced by {@link PizzaOrderingParser#order_commands}.
+	 * Visit a parse tree produced by {@link PizzaOrderingParser#orders}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitOrder_commands(PizzaOrderingParser.Order_commandsContext ctx);
+	T visitOrders(PizzaOrderingParser.OrdersContext ctx);
 	/**
 	 * Visit a parse tree produced by {@link PizzaOrderingParser#order}.
 	 * @param ctx the parse tree
